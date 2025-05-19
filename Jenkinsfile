@@ -15,7 +15,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone your Git repository
-                git branch : main ,url: 'https:https://github.com/thrishaaaa/THRISHA1BI22CS175GUAVA.git'
+                git branch: 'main', url: 'https://github.com/thrishaaaa/THRISHA1BI22CS175GUAVA.git'
+
 
             }
         }
